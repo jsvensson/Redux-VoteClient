@@ -13,6 +13,9 @@ module.exports = {
       loader: 'react-hot!babel'
     }]
   },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  },
   output: {
     path: __dirname + '/dist',
     publicPath: '/',
