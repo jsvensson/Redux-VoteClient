@@ -6,6 +6,7 @@ import {
   Simulate
 } from 'react-addons-test-utils'
 import {expect} from 'chai'
+import {List} from 'immutable'
 
 import Voting from '../../src/components/Voting'
 
